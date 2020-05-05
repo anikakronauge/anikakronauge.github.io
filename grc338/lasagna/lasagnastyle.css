@@ -1,0 +1,62 @@
+/*CSS DOCUMENT*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Staatliches&display=swap");
+
+img {
+width: 100%;}
+
+body{
+    background: rgb(255,60,50)
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(34,139,34);
+    padding: 1em .5em .5em .5em
+}
+
+
+h2 {
+    font-family: 'Hind Madurai', sans-serif;
+    text-align: center;
+    color: rgb(0,0,0);
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+
+h3 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    color:  rgb(34,139,34);
+}
+
+div.container {
+    max-width: 40em; 
+    margin: auto;
+    background-color: rgb(255,255,255);
+    padding: .5em 3em .5em 3em
+}
+
+div.maincontent{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: .8em;
+}
+    
+div.intro{
+        
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: .8em;    
+    }
+
+h6{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: .5em;
+    text-align: right;
+    padding-top: 1em;
+}
+
+
