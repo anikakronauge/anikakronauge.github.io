@@ -1,0 +1,116 @@
+/*CSS DOCUMENT*/
+body {
+   font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+img {
+    width:100%;
+}
+
+header {
+    width: 100%;
+    clear: both;
+    max-width:60em;
+    margin: auto;
+}
+
+nav { 
+    float: right;
+    padding-top: 2em;
+    color:#D2A275;
+}
+nav ul {
+    padding: 1em;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    
+}
+
+nav ul li a {
+    text-decoration: none;  
+    color: rgb(0,0,0);
+
+}
+
+.container a:hover{
+ color: #D2A275;
+    
+}
+
+h1{
+   width: 6em;
+ float: left;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    clear: both;
+     color: #a33434;
+    margin-top: 2em;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-top: 2em;
+    padding: 0.45em 1em 0.45em 0em;
+    text-align: left;
+    clear:both;
+    color: #D2A275;
+   
+}
+
+h4 {
+    margin-top: 2em;
+     font-weight: bold;
+    
+}
+    
+p{
+    max-width:36em;
+    margin: 1em auto;
+}
+.opendaily{
+    text-align:center;
+}
+li {
+    list-style-type: none;
+    padding-right:.25em;
+}
+
+div.content {
+    max-width:60em;
+    margin: auto;
+    clear:both;
+}
+
+@media only screen and (min-width:30em) {
+    div.menu ul li, h3 {
+        width:60%;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width:5em) {
+    div.header h1 {
+        width:2.5em;
+    }
+    
+    div.header nav {
+        padding-top:1.5em;
+    }
+    
+    div.menu h3 {
+        padding-left: 0.45em 1em 0.45em 2.5em;
+    }
+}
+
+
