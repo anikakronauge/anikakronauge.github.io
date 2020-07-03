@@ -1,0 +1,252 @@
+/*CSS DOCUMENT*/
+body {
+   font-family: 'Boreal extralight', sans-serif;
+ 
+}
+
+img {
+    width:70%;
+    align-content: center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 1px;
+
+
+} 
+
+.grad{
+    
+  float: left;
+  width: 50%;
+  
+
+
+} 
+
+header {
+    clear: both;
+   max-width: 60em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    
+    
+}
+.logo {
+  float: left;
+    width:17em;
+}
+
+
+#navigation-container {
+  height: 70px;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+.navigation-bar {
+  height: 70px;
+    text-align: center;
+    display: inline;
+}
+
+.navigation-bar ul {
+  margin-top: 0em;
+    max-width: 60em;
+  float: right;
+     font-family: 'Boreal extralight', sans-serif;
+    letter-spacing: .2em;
+  background: white;
+      text-transform: uppercase;
+    font-weight: bold;
+     margin-right:auto;
+    margin-left:auto;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+    max-width:60em;
+  display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;  
+    color: rgb(0,0,0);
+
+}
+
+.navigation-bar a:hover{
+ color: #FFB256;
+    
+}
+
+.title h1{
+     width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: bold;
+    letter-spacing: 0.2em;
+    clear: both;
+     color: rgb(0,0,0);
+    margin-top: 2em;
+     margin-right:auto;
+    margin-left:auto;
+    
+    
+}
+
+h2 {
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: bold;
+    letter-spacing: 0.2em;
+    clear: both;
+     color: rgb(255,171,173);
+    margin-top: 1em;
+    padding-top: 1em;
+    max-width: 40em;
+     margin-right:auto;
+    margin-left:auto;
+    
+ 
+    
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align:left;
+    clear:both;
+    color: #FFB256;
+   max-width:40em;
+   margin-top: 1em;
+    padding-top: 1em;
+     margin-right:auto;
+    margin-left:auto;
+}
+
+h4 {
+    margin-top: 2em;
+     font-weight: bold;
+    text-decoration: none;
+       color: rgb(0,0,0);
+    
+}
+
+a  {
+    text-decoration: none;
+     color: rgb(0,0,0);
+}
+
+a:hover {
+    color: #FFB256;
+}
+p{
+    max-width:40em;
+    margin: 1em auto;
+    letter-spacing: .015em;
+    line-height: 170%;
+    text-decoration: none;
+  
+    
+}
+.opendaily{
+    text-align:center;
+}
+.contact ul {
+    padding: .25em;
+  margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+ .contact ul li {
+    list-style: none;
+  display: inline;
+    margin-left: 0em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    
+}
+
+.contact li{
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+
+div.contact {
+    max-width:60em;
+    margin: auto;
+    clear:both;
+  
+}
+
+div.gradcard{
+    max-width:70%;
+    align-content: center;
+margin: auto;
+}
+
+div.contact ul li a{
+      align-content: center;
+    
+}
+div.row {
+    max-width: 60em;
+    align-content: center;
+    margin:auto;
+}
+
+@media only screen and (min-width:30em) {
+    div.menu ul li h3 h2 {
+        width:70%;
+    }
+}
+
+@media only screen and (min-width:5em) {
+    div.header h1 h2 h3 {
+        width:2.5em;
+    }
+    
+    div.header {
+        padding-top:1.5em;
+    }
+    
+    div.menu h3 h2 {
+        padding-left: 0.45em 1em 0.45em 2.5em;
+    }
+   
+}
+
+
