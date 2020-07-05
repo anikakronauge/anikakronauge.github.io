@@ -1,6 +1,6 @@
 /*CSS DOCUMENT*/
 body {
-   font-family: 'Boreal extralight', sans-serif;
+   font-family: 'Open Sans', sans-serif;
  
 }
 
@@ -61,7 +61,7 @@ header {
   margin-top: 0em;
     max-width: 60em;
   float: right;
-     font-family: 'Boreal extralight', sans-serif;
+     font-family: 'Open Sans', sans-serif;
     letter-spacing: .2em;
   background: white;
       text-transform: uppercase;
