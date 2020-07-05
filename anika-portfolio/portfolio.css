@@ -80,6 +80,8 @@ header {
   display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+   
 }
 
 .navigation-bar li a {
